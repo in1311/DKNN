@@ -33,8 +33,10 @@ class DKNN(nn.Module):
 
         sys_mat_pre[0:batch_size, 0:self.knownn_num] = var_pre
         sys_mat_pre[0:batch_size, self.knownn_num:self.knownn_num + k] = pe_pre_trend
-
-        sys_mat_know_inv = torch.linalg.pinv(sys_mat_know)
+        try:
+            sys_mat_know_inv = torch.linalg.inv(sys_mat_know)
+        except:
+            sys_mat_know_inv = torch.linalg.pinv(sys_mat_know)
         lamda = torch.matmul(sys_mat_pre, sys_mat_know_inv.T)
         lamda = lamda[:, :-k]
         z_pre = torch.matmul(lamda, z_know)
