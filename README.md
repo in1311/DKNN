@@ -28,6 +28,6 @@ You can adjust the parameters:
 * if_summary:  if save the training summary or not
 * if_save_model:  if save the best model or not
 
-Or you can **run the demo.ipynb** file，which encompasses code blocks for data loading, preprocessing, model initialization, training, and predicting, providing a more comprehensive running example.
+Or you can **run the demo.ipynb** file, which encompasses code blocks for data loading, preprocessing, model initialization, training, and predicting, providing a more comprehensive running example.
 
 The train log and results are saved in folder "results"
