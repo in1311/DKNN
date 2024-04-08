@@ -12,6 +12,7 @@ This is a pytorch implementation of DKNN: deep kriging neural network for interp
 * sklearn
 * matplotlib
 * math
+* tqdm
 
 # Running examples
 **python main.py**  
