@@ -1,6 +1,6 @@
 # DKNN
 This is a pytorch implementation of DKNN: deep kriging neural network for interpretable geospatial interpolation
-![Uploading DKNN framework.png…]()
+![DKNN framework](https://github.com/in1311/DKNN/assets/140888660/0b1f8538-f751-43f3-85f8-cc72dd7decd2)
 
 # Requirements
 * numpy
