@@ -32,3 +32,5 @@ You can adjust the parameters:
 Or you can **run the demo.ipynb** file, which encompasses code blocks for data loading, preprocessing, model initialization, training, and predicting, providing a more comprehensive running example.
 
 The train log and results are saved in folder "results"
+
+Please note that we tested the code on machines equipped with NVIDIA RTX4090 GPU and RTX3060 GPU. We recommend utilizing GPU for running our provided code examples, and varying device conditions may affect the results.
